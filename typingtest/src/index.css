@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+:root {
+  font-family: "Fira Code", sans-serif;
+  background-color: #1a1a1a;
+}
+
+.Countdown {
+  font-family: "Poppins", sans-serif;
+}
+
+.Title-text {
+  font-family: "Poppins", sans-serif;
+}
