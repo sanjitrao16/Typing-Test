@@ -4,51 +4,56 @@ import Internet from "../assets/Internet.svg";
 
 export default function Footer() {
   return (
-    <>
-      <div className="flex justify-evenly items-center border-t-1 border-t-gray-300 py-3">
+    <footer className="border-t border-gray-300 py-4 mt-10">
+      <div className="flex flex-col sm:flex-row justify-center sm:justify-evenly items-center gap-y-4 text-white text-sm">
         <a
-          className="flex gap-2"
+          className="flex items-center gap-2 hover:text-[#39ff14] transition"
           href="https://www.linkedin.com/in/sanjitrao16/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             src={LinkedIn}
             alt="LinkedIn"
-            width="25px"
-            height="25px"
+            width="25"
+            height="25"
             className="invert"
           />
-          <p>LinkedIn</p>
+          <span>LinkedIn</span>
         </a>
+
         <a
-          className="flex gap-2"
+          className="flex items-center gap-2 hover:text-[#39ff14] transition"
           href="https://github.com/sanjitrao16/Typing-Test"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             src={Github}
             alt="GitHub"
-            width="25px"
-            height="25px"
+            width="25"
+            height="25"
             className="invert"
           />
-          <p>GitHub</p>
+          <span>GitHub</span>
         </a>
+
         <a
-          className="flex gap-2"
+          className="flex items-center gap-2 hover:text-[#39ff14] transition"
           href="https://sanjitrao16.github.io/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             src={Internet}
-            alt="Internet"
-            width="20px"
-            height="20px"
+            alt="Portfolio"
+            width="20"
+            height="20"
             className="invert"
           />
-          <p>Portfolio</p>
+          <span>Portfolio</span>
         </a>
       </div>
-    </>
+    </footer>
   );
 }
