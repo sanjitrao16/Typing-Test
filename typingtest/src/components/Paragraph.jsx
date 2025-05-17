@@ -46,7 +46,7 @@ function Paragraph({
         handleTyping(e);
       }}
       className={`
-        w-full max-w-3xl p-6 bg-[#2a2a2a] rounded-lg text-xl font-mono leading-relaxed mb-8 min-h-[200px] outline-none
+        w-full max-w-3xl p-6 bg-[#2a2a2a] rounded-lg text-xl font-mono leading-relaxed mb-3 min-h-[200px] outline-none
         focus:ring-2 focus:ring-gray-500 transition-all duration-200 cursor-text
       `}
     >
