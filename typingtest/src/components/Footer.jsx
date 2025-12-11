@@ -40,7 +40,7 @@ export default function Footer() {
 
         <a
           className="flex items-center gap-2 hover:text-[#39ff14] transition"
-          href="https://sanjitrao16.github.io/"
+          href="https://sanjitrao.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
